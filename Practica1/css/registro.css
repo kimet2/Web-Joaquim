@@ -1,0 +1,57 @@
+body{
+    /*background-color: grey;*/
+    opacity: 1;
+    background-image: url(https://media.istockphoto.com/photos/dark-gray-and-black-grunge-cement-wall-studio-room-space-product-picture-id1337977426?b=1&k=20&m=1337977426&s=170667a&w=0&h=pXD50PRHzp_VW0Jqc3XVve3lQvKg3d5UnPb8C2urYL4=);
+    margin: 0;
+    padding: 0;
+}
+
+body label{
+    font-size: 20px;
+    color: white; 
+    text-align: center;
+
+}
+form{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+}
+input[type="text"] {
+    border-radius: 5px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    max-width: 100%;
+    outline: none;
+    padding: 7px 8px;
+    align-items: center;
+
+}
+input[type="password"] {
+    border-radius: 5px;
+    margin: 40px 0px 0px 0px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    max-width: 100%;
+    outline: none;
+    padding: 7px 8px;
+}
+input[type="submit"] {
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 40px 0px 0px 0px;
+    background: #0088B2;
+    color: #fff;
+    padding: 8px 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
