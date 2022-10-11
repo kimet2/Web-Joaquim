@@ -61,7 +61,11 @@ body{
     opacity: 1.5;
 }
 form{
-    text-align: center;
+  display: flex;     
+  flex-direction: column; 
+  justify-content: space-around;
+  height: 300px;
+  align-items: center;
 }
 input[type="text"] {
     border-radius: 5px;
@@ -112,4 +116,5 @@ input[type="tel"] {
 label{
     color: black;
     font-weight: bold;
+    font-size: 20px;
 }

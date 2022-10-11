@@ -40,6 +40,8 @@ ul {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    display: flex;     
+    
   }
   
   div.gallery:hover {
@@ -49,6 +51,10 @@ ul {
   div.gallery img {
     width: 100%;
     height: auto;
+    flex-direction: column; 
+    justify-content: space-around;
+    
+    align-items: center;
   }
   
   div.desc {
