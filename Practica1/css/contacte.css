@@ -81,6 +81,8 @@ input[type="text"] {
 }
 h2{
     text-align: center;
+    font-weight: bold;
+    font-size: large;
 }
 input[type="password"] {
     border-radius: 5px;
